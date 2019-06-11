@@ -19,7 +19,7 @@
     "format-check": "prettier --list-different \"**/*.{js,ts,tsx}\"",
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
     "lint": "tslint --project . \"src/**/*.{ts,tsx}\"",
-    "prepublishOnly": "npm run build",
+    "prepublish": "npm run build",
     "test": "jest"
   },
   "author": "Daniel Trojanowski",
